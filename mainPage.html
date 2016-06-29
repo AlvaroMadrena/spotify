@@ -3,17 +3,25 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Main Page</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
 	<div class="row">
 		<div class="col-lg-12">
 			<div class="input-group">
-				<input type="text" class="form-control" placeholder="Search for...">
+				<input 	id="input" type="text" class="form-control" placeholder="Search for...">
 				<span class="input-group-btn">
-					<button class="btn btn-default" type="button">Go!</button>
+					<button id = "mainButton" class="btn btn-default" type="button">Go!</button>
 				</span>
 			</div>
 		</div>
 	</div>
+<div class="row">
+	<div id="album" class="col-lg-12">
+	</div>
+</div>
+	<script src = "js/jquery-1.12.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src = "js/mainPage.js"></script>
 </body>
 </html>

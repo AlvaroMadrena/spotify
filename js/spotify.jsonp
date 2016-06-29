@@ -1,0 +1,5 @@
+dataUsers ({"users": [
+	{"name":"sara", "password": "hola"},
+	{"name":"paz", "password":"adios"},
+	{"name":"alvaro", "password":"paza"}
+]})
